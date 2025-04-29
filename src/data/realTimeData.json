@@ -1,0 +1,10 @@
+{
+  "simulated_state": {
+    "ps5": false,
+    "tv": true,
+    "lights": true,
+    "lamp": false,
+    "dishwasher": true
+  },
+  "time_interval": 6
+}
