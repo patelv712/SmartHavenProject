@@ -21,6 +21,23 @@ This MVP does not connect to actual IoT hardware but uses synthetic datasets and
 - **State Management**: React Context API
 - **Data**: Simulated mock datasets (JSON)
 
+| Device                 | Rated Power |
+|------------------------|-------------|
+| PlayStation 5          | 200 W       |
+| Samsung Smart TV       | 120 W       |
+| Govee Smart Bulbs (×5) | 9 W each ⇒ 45 W total |
+| Desk Lamp              | 60 W        |
+| LG Dishwasher          | 1.2 kWh / cycle (≈ 200 W avg) |
+
+| Feature                     | Why it matters                                                                                      |
+|-----------------------------|------------------------------------------------------------------------------------------------------|
+| **Device Monitoring**       | See today’s usage at a glance and dive into 7-day charts for every device. Spot habitual waste.      |
+| **Real-Time Control**       | Flip a virtual switch to simulate shutting a device off; SmartHaven recalculates savings instantly. |
+| **Gamified Leaderboard**    | Friendly competition between residents or floors keeps everyone engaged and accountable.            |
+| **Custom Electricity Rate** | Enter the ¢/kWh from your bill once, and every dollar figure you see is grounded in your real tariff.|
+
+
+
 ## Project Structure
 
 ```
